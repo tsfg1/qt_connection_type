@@ -1,10 +1,3 @@
 ﻿D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(direct-multThread.vcxproj, QtWidgetsApplication16.vcxproj, queued-multThread.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
-  moc mainwindow.h
-  moc thread1.h
-  mainwindow.cpp
-  thread1.cpp
   main.cpp
-  qrc_QtWidgetsApplication16.cpp
-  moc_mainwindow.cpp
-  moc_thread1.cpp
   BlockingQueued-multThread.vcxproj -> C:\Users\WGJ\source\repos\QtWidgetsApplication16\Debug\BlockingQueued-multThread.exe
