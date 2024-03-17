@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "direct-oneThread", "QtWidgetsApplication16\QtWidgetsApplication16.vcxproj", "{A005E540-1755-498C-902E-31FD2F7ACF7C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "direct-multThread", "direct-multThread\direct-multThread.vcxproj", "{0F273D44-EC75-4021-A51B-C9B79D81FA66}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "queued-oneThread", "queued-oneThread\queued-oneThread.vcxproj", "{4A3EAF8E-8766-42D1-B89E-45230B7E415C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "queued-multThread", "queued-multThread\queued-multThread.vcxproj", "{7C7D6B70-1662-4BB1-AEC9-1F1510594E3C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlockingQueued-multThread", "BlockingQueued-multThread\BlockingQueued-multThread.vcxproj", "{201F85B0-9027-4C4D-9364-886E5D790B49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A005E540-1755-498C-902E-31FD2F7ACF7C}.Debug|x64.ActiveCfg = Debug|Win32
+		{A005E540-1755-498C-902E-31FD2F7ACF7C}.Debug|x86.ActiveCfg = Debug|Win32
+		{A005E540-1755-498C-902E-31FD2F7ACF7C}.Debug|x86.Build.0 = Debug|Win32
+		{A005E540-1755-498C-902E-31FD2F7ACF7C}.Release|x64.ActiveCfg = Release|Win32
+		{A005E540-1755-498C-902E-31FD2F7ACF7C}.Release|x86.ActiveCfg = Release|Win32
+		{A005E540-1755-498C-902E-31FD2F7ACF7C}.Release|x86.Build.0 = Release|Win32
+		{0F273D44-EC75-4021-A51B-C9B79D81FA66}.Debug|x64.ActiveCfg = Debug|Win32
+		{0F273D44-EC75-4021-A51B-C9B79D81FA66}.Debug|x86.ActiveCfg = Debug|Win32
+		{0F273D44-EC75-4021-A51B-C9B79D81FA66}.Debug|x86.Build.0 = Debug|Win32
+		{0F273D44-EC75-4021-A51B-C9B79D81FA66}.Release|x64.ActiveCfg = Release|Win32
+		{0F273D44-EC75-4021-A51B-C9B79D81FA66}.Release|x86.ActiveCfg = Release|Win32
+		{0F273D44-EC75-4021-A51B-C9B79D81FA66}.Release|x86.Build.0 = Release|Win32
+		{4A3EAF8E-8766-42D1-B89E-45230B7E415C}.Debug|x64.ActiveCfg = Debug|Win32
+		{4A3EAF8E-8766-42D1-B89E-45230B7E415C}.Debug|x86.ActiveCfg = Debug|Win32
+		{4A3EAF8E-8766-42D1-B89E-45230B7E415C}.Debug|x86.Build.0 = Debug|Win32
+		{4A3EAF8E-8766-42D1-B89E-45230B7E415C}.Release|x64.ActiveCfg = Release|Win32
+		{4A3EAF8E-8766-42D1-B89E-45230B7E415C}.Release|x86.ActiveCfg = Release|Win32
+		{4A3EAF8E-8766-42D1-B89E-45230B7E415C}.Release|x86.Build.0 = Release|Win32
+		{7C7D6B70-1662-4BB1-AEC9-1F1510594E3C}.Debug|x64.ActiveCfg = Debug|Win32
+		{7C7D6B70-1662-4BB1-AEC9-1F1510594E3C}.Debug|x86.ActiveCfg = Debug|Win32
+		{7C7D6B70-1662-4BB1-AEC9-1F1510594E3C}.Debug|x86.Build.0 = Debug|Win32
+		{7C7D6B70-1662-4BB1-AEC9-1F1510594E3C}.Release|x64.ActiveCfg = Release|Win32
+		{7C7D6B70-1662-4BB1-AEC9-1F1510594E3C}.Release|x86.ActiveCfg = Release|Win32
+		{7C7D6B70-1662-4BB1-AEC9-1F1510594E3C}.Release|x86.Build.0 = Release|Win32
+		{201F85B0-9027-4C4D-9364-886E5D790B49}.Debug|x64.ActiveCfg = Debug|Win32
+		{201F85B0-9027-4C4D-9364-886E5D790B49}.Debug|x86.ActiveCfg = Debug|Win32
+		{201F85B0-9027-4C4D-9364-886E5D790B49}.Debug|x86.Build.0 = Debug|Win32
+		{201F85B0-9027-4C4D-9364-886E5D790B49}.Release|x64.ActiveCfg = Release|Win32
+		{201F85B0-9027-4C4D-9364-886E5D790B49}.Release|x86.ActiveCfg = Release|Win32
+		{201F85B0-9027-4C4D-9364-886E5D790B49}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7D6907A-237F-423F-B5B1-E82C43BAD4EF}
+	EndGlobalSection
+EndGlobal

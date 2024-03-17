@@ -1,0 +1,614 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(Name=LocalCamDeviceCapturer::selectLocalCamDevice @11 @9 OverloadingParameters=[(Type=&quot;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;&quot; Name=device_name),(Type=&quot;const int&quot; Name=device_id)] @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="431.481666666667,1102.8725,162.656666666667,25.24" Label="selectLocalCamDevice" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/anycore/localcamdevicecapturer.cpp StartLineNumber=98 StartCharacterOffset=0 EndLineNumber=98 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=LocalCamDeviceCapturer::startVideoCapturing @11 @9 @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="216.725,818.234999999997,152.17,25.24" Label="startVideoCapturing" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/anycore/localcamdevicecapturer.cpp StartLineNumber=106 StartCharacterOffset=0 EndLineNumber=106 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=cricket::VideoCapturer::OnFrame @11 @9 OverloadingParameters=[(Type=&quot;const webrtc::VideoFrame &amp;&quot; Name=frame),(@19 Name=orig_width),(@19 Name=orig_height)] @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="513.401666666667,425.597499999998,88.8166666666666,25.24" Label="OnFrame" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/webrtc/media/base/videocapturer.cc StartLineNumber=228 StartCharacterOffset=0 EndLineNumber=228 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=issue_debug_notification @11 @23 OverloadingParameters=[(Type=&quot;const wchar_t * const&quot; Name=message)] @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="7.88000000000011,818.234999999997,177.86,25.24" Label="issue_debug_notification">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="(Name=rtc::scoped_refptr&lt;webrtc::I420Buffer&gt;::get @11 Type=&quot;webrtc::I420Buffer *&quot; @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="670.331666666666,311.742499999998,54.9566666666667,25.24" Label="get" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/webrtc/rtc_base/scoped_ref_ptr.h StartLineNumber=100 StartCharacterOffset=0 EndLineNumber=100 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@10" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="413.89,482.524999999998,91.84,25.24" Label="routeMsg" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/smartclassroom/module/streamsocket/streaminfohandler.cpp StartLineNumber=61 StartCharacterOffset=0 EndLineNumber=61 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@12" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="63.3200000000001,685.619999999997,66.98,25.24" Label="abort">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@13" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="262.5,197.887499999999,58.62,25.24" Label="Run" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/anycore/localcamdevicecapturer.cpp StartLineNumber=72 StartCharacterOffset=0 EndLineNumber=72 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@14" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="249.808333333333,685.619999999997,86.0033333333333,25.24" Label="operator" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/webrtc/rtc_base/bind.h StartLineNumber=163 StartCharacterOffset=0 EndLineNumber=163 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@15" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="234.743333333333,425.597499999998,114.133333333333,25.24" Label="ReceiveSends" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/webrtc/rtc_base/thread.cc StartLineNumber=410 StartCharacterOffset=0 EndLineNumber=410 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@16" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="262.5,254.814999999999,58.62,25.24" Label="Run" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/webrtc/rtc_base/thread.cc StartLineNumber=328 StartCharacterOffset=0 EndLineNumber=328 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@17" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="173.5,197.887499999999,58.62,25.24" Label="Run" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/anycore/avcodec.cc StartLineNumber=414 StartCharacterOffset=0 EndLineNumber=414 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@18" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="241.436666666667,751.927499999997,102.746666666667,25.24" Label="CallMethod" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/webrtc/rtc_base/bind.h StartLineNumber=171 StartCharacterOffset=0 EndLineNumber=171 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@20" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="475.345,311.742499999998,164.93,25.24" Label="DeliverCapturedFrame" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/webrtc/modules/video_capture/video_capture_impl.cc StartLineNumber=117 StartCharacterOffset=0 EndLineNumber=117 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@21" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="411.448333333333,685.619999999997,202.723333333333,25.24" Label="onPushStreamCmdComming" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/smartclassroom/module/smartclassroom/classroomlive.cpp StartLineNumber=165 StartCharacterOffset=0 EndLineNumber=165 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@22" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="431.303333333333,752.003723999997,163.013333333333,25.087552" Group="Collapsed" Label="recvCtlStreamCmd" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/smartclassroom/module/smartclassroom/pushstreamwidget.cpp StartLineNumber=76 StartCharacterOffset=0 EndLineNumber=76 EndCharacterOffset=0)" UseManualLocation="True">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@24" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="223.908333333333,311.742499999998,135.803333333333,25.24" Label="ProcessMessages" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/webrtc/rtc_base/thread.cc StartLineNumber=501 StartCharacterOffset=0 EndLineNumber=501 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@25" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="374.115,609.932499999997,277.39,44" Group="Expanded" Label="ClassRoomLive::initStreamSocket::__l2::" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/smartclassroom/module/smartclassroom/classroomlive.cpp StartLineNumber=133 StartCharacterOffset=0 EndLineNumber=133 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@26" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="439.368333333333,539.452499999998,146.883333333333,25.24" Label="notifyStreamImpler" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/smartclassroom/module/streamsocket/pushstreaminfohandler.cpp StartLineNumber=60 StartCharacterOffset=0 EndLineNumber=60 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@27" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="413.211666666666,425.597499999998,69.1966666666667,25.24" Label="notify" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/smartclassroom/module/streamsocket/streaminfohandler.cpp StartLineNumber=31 StartCharacterOffset=0 EndLineNumber=31 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@28" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="0,751.927499999997,193.62,25.24" Label="__acrt_report_runtime_error">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@29" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="362.24,368.669999999998,121.14,25.24" Label="onMsgComing" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/smartclassroom/module/streamsocket/xspcstreamsocketmanager.cpp StartLineNumber=109 StartCharacterOffset=0 EndLineNumber=109 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@3" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="245,56.9274999999998,105.62,25.24" Label="dll 加载符号]">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@30" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="239.843333333333,619.312499999997,103.933333333333,25.24" Label="OnMessage" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/webrtc/rtc_base/messagehandler.h StartLineNumber=59 StartCharacterOffset=0 EndLineNumber=59 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@31" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="496.923333333333,127.407499999999,79.7733333333333,25.24" Label="Receive" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/webrtc/modules/video_capture/windows/sink_filter_ds.cc StartLineNumber=312 StartCharacterOffset=0 EndLineNumber=312 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@32" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="248.78,539.452499999998,86.06,25.24" Label="Dispatch" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/webrtc/rtc_base/messagequeue.cc StartLineNumber=508 StartCharacterOffset=0 EndLineNumber=508 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@33" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="253.131666666667,127.407499999999,77.3566666666667,25.24" Label="PreRun" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/webrtc/rtc_base/thread.cc StartLineNumber=314 StartCharacterOffset=0 EndLineNumber=314 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@34" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="513.401666666667,368.669999999998,88.8166666666666,25.24" Label="OnFrame" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/webrtc/media/engine/webrtcvideocapturer.cc StartLineNumber=341 StartCharacterOffset=0 EndLineNumber=341 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@35" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="199.841666666666,482.524999999998,183.936666666667,25.24" Label="ReceiveSendsFromThread" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/webrtc/rtc_base/thread.cc StartLineNumber=423 StartCharacterOffset=0 EndLineNumber=423 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@36" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="48.5883333333333,368.669999999998,96.4433333333333,25.24" Label="operator&amp;" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/webrtc/base/checks.h StartLineNumber=271 StartCharacterOffset=0 EndLineNumber=271 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@37" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="0.561666666666611,311.742499999998,192.496666666667,25.24" Label="ConvertToVideoFrameType" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/webrtc/modules/video_coding/codecs/h264/h264_encoder_impl.cc StartLineNumber=74 StartCharacterOffset=0 EndLineNumber=74 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@38" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="381.578333333333,56.9274999999998,64.4633333333333,25.24" Label="main" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/smartclassroom/main.cpp StartLineNumber=10 StartCharacterOffset=0 EndLineNumber=10 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@39" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="441.115,989.017499999997,143.39,25.24" Label="getDeviceCapturer" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/anycore/xsdevicecapturerfactory.cpp StartLineNumber=57 StartCharacterOffset=0 EndLineNumber=57 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@40" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="453.301666666667,932.089999999997,119.016666666667,25.24" Label="selectCapturer" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/anycore/xslocalcamstream.cpp StartLineNumber=171 StartCharacterOffset=0 EndLineNumber=171 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@41" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="461.621666666667,818.234999999997,102.376666666667,25.24" Label="startStream" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/smartclassroom/module/smartclassroom/streambasewidget.cpp StartLineNumber=30 StartCharacterOffset=0 EndLineNumber=30 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@42" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="422.826666666667,1045.945,179.966666666667,25.2399999999998" Label="LocalCamDeviceCapturer" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/anycore/localcamdevicecapturer.cpp StartLineNumber=34 StartCharacterOffset=0 EndLineNumber=34 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@43" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="386.291666666667,254.814999999999,55.0366666666667,25.24" Label="call" SourceLocation="(Assembly=file:///c:/qt/qt5.9.2/5.9.2/msvc2015/include/qtcore/qobjectdefs_impl.h StartLineNumber=168 StartCharacterOffset=0 EndLineNumber=168 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@44" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="390.291666666666,311.742499999998,55.0366666666667,25.24" Label="call" SourceLocation="(Assembly=file:///c:/qt/qt5.9.2/5.9.2/msvc2015/include/qtcore/qobjectdefs_impl.h StartLineNumber=135 StartCharacterOffset=0 EndLineNumber=135 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@45" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="461.621666666667,875.162499999997,102.376666666667,25.24" Label="startStream" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/smartclassroom/module/streams/localcamstream.cpp StartLineNumber=57 StartCharacterOffset=0 EndLineNumber=57 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@46" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="153.748333333333,254.814999999999,78.1233333333333,25.24" Label="Encode" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/webrtc/modules/video_coding/codecs/h264/h264_encoder_impl.cc StartLineNumber=507 StartCharacterOffset=0 EndLineNumber=507 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@47" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="474.615,197.887499999999,168.39,25.24" Label="ProcessCapturedFrame" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/webrtc/modules/video_capture/windows/sink_filter_ds.cc StartLineNumber=415 StartCharacterOffset=0 EndLineNumber=415 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@5" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="361,127.407499999999,105.62,25.24" Label="dll 加载符号]">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@50" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="68.2866666666667,425.597499999998,57.0466666666667,25.24" Label="Call" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/webrtc/base/checks.h StartLineNumber=243 StartCharacterOffset=0 EndLineNumber=243 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@51" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="263.708333333333,368.669999999998,56.2033333333333,25.24" Label="Get" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/webrtc/rtc_base/messagequeue.cc StartLineNumber=258 StartCharacterOffset=0 EndLineNumber=258 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@52" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="68.2866666666667,482.524999999998,57.0466666666667,25.24" Label="Call" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/webrtc/base/checks.h StartLineNumber=243 StartCharacterOffset=0 EndLineNumber=243 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@53" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="495.951666666667,254.814999999999,125.716666666667,25.24" Label="IncomingFrame" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/webrtc/modules/video_capture/video_capture_impl.cc StartLineNumber=203 StartCharacterOffset=0 EndLineNumber=203 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@54" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="54.4266666666667,619.312499999997,84.7666666666667,25.24" Label="FatalLog" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/webrtc/base/checks.cc StartLineNumber=155 StartCharacterOffset=0 EndLineNumber=155 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@55" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="68.2866666666667,539.452499999998,57.0466666666667,25.24" Label="Call" SourceLocation="(Assembly=file:///d:/smartclass4_20190715-master/smartclass4_20190715-master/smart-class4-all/webrtc/base/checks.h StartLineNumber=198 StartCharacterOffset=0 EndLineNumber=198 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@56" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="383.163333333333,197.887499999999,61.2933333333334,25.24" Label="impl" SourceLocation="(Assembly=file:///c:/qt/qt5.9.2/5.9.2/msvc2015/include/qtcore/qobject_impl.h StartLineNumber=118 StartCharacterOffset=0 EndLineNumber=118 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@7" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="477,56.9274999999998,105.62,25.24" Label="dll 加载符号]">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="ExternalCodeRootNode" Category="ExternalCallStackEntry" Bounds="379.81,0,68,25.24" Label="外部代码">
+      <Category Ref="CallStackEntry" />
+    </Node>
+  </Nodes>
+  <Links>
+    <Link Source="@10" Target="@26" Category="CallStackDirectCall" Bounds="471.559342205541,507.764989013672,23.3686808202477,25.1003901762049" />
+    <Link Source="@12" Target="@28" Category="CallStackDirectCall" Bounds="96.8099988024012,710.859990234375,1.84485610077445E-06,32.0674951171876" />
+    <Link Source="@13" Target="@16" Category="CallStackDirectCall" Bounds="291.809997558594,223.127499694824,0,22.6874978637695" />
+    <Link Source="@14" Target="@18" Category="CallStackDirectCall" Bounds="292.809994904429,710.859990234375,7.3794244030978E-06,32.0674951171877" />
+    <Link Source="@15" Target="@35" Category="CallStackDirectCall" Bounds="291.809989929199,450.837498779297,0,22.687490234375" />
+    <Link Source="@16" Target="@24" Category="CallStackDirectCall" Bounds="291.80999924992,280.054997558594,3.04056641198258E-06,22.687490234375" />
+    <Link Source="@17" Target="@46" Category="CallStackDirectCall" Bounds="196.583973925858,223.127499694824,4.0091704694531,22.8232217462642" />
+    <Link Source="@18" Target="(Name=LocalCamDeviceCapturer::startVideoCapturing @11 @9 @2)" Category="CallStackDirectCall" Bounds="292.809994285402,777.167485351563,1.10691365193816E-05,32.0674951171881" />
+    <Link Source="@20" Target="@34" Category="CallStackDirectCall" Bounds="557.810003353594,336.982487792969,6.08113771249919E-06,22.6875207519535" />
+    <Link Source="@21" Target="@22" Category="CallStackDirectCall" Bounds="512.8099856686,710.859990234375,8.59216720527911E-06,32.1875097656226" />
+    <Link Source="@22" Target="@41" Category="CallStackDirectCall" Bounds="512.810002416278,777.047499999997,6.22191123511584E-06,32.1874804687531" />
+    <Link Source="@24" Target="@51" Category="CallStackDirectCall" Bounds="291.810006879314,336.982487792969,3.04056891309301E-06,22.6875207519532" />
+    <Link Source="@25" Target="@21" Category="CallStackDirectCall" Bounds="512.809988071072,653.932499999997,6.05622392413352E-06,22.6874902343782" />
+    <Link Source="@26" Target="@25" Category="CallStackIndirectCall" Bounds="512.81001089859,564.692509765625,1.27408003436358E-05,36.2399902343727" Label="外部代码" LabelBounds="516.810017268991,575.192505585946,47.9999999999998,15.2399999999998" />
+    <Link Source="@27" Target="@10" Category="CallStackDirectCall" Bounds="450.470227123298,450.837498779297,4.82319835062282,22.8810189889074" />
+    <Link Source="@28" Target="(Name=issue_debug_notification @11 @23 OverloadingParameters=[(Type=&quot;const wchar_t * const&quot; Name=message)] @2)" Category="CallStackDirectCall" Bounds="96.8099985568902,777.167485351563,2.53667711547223E-06,32.0674951171875" />
+    <Link Source="@29" Target="@27" Category="CallStackDirectCall" Bounds="428.352135437869,393.910008544922,10.2969103762247,23.4470905954706" />
+    <Link Source="@3" Target="@33" Category="CallStackIndirectCall" Bounds="293.647763640252,82.1675025177002,3.08788797396471,36.2724376029875" Label="外部代码" LabelBounds="299.191733699076,92.8533685431689,48,15.2399999999998" />
+    <Link Source="@30" Target="@14" Category="CallStackDirectCall" Bounds="292.000330579977,644.552495117188,0.483633386913425,32.0685184412688" />
+    <Link Source="@31" Target="@47" Category="CallStackDirectCall" Bounds="540.749271350171,152.647503967285,11.4397537357477,36.6488088372542" />
+    <Link Source="@32" Target="@30" Category="CallStackDirectCall" Bounds="291.809998764241,564.692509765625,4.35828860645415E-06,45.6199853515625" />
+    <Link Source="@33" Target="@13" Category="CallStackDirectCall" Bounds="291.809999898939,152.647503967285,3.92294612083788E-06,36.2399957275391" />
+    <Link Source="@33" Target="@17" Category="CallStackDirectCall" Bounds="225.801728819109,152.647503967285,50.0721219368477,39.6526139062068" />
+    <Link Source="@34" Target="(Name=cricket::VideoCapturer::OnFrame @11 @9 OverloadingParameters=[(Type=&quot;const webrtc::VideoFrame &amp;&quot; Name=frame),(@19 Name=orig_width),(@19 Name=orig_height)] @2)" Category="CallStackDirectCall" Bounds="557.809997558594,393.910008544922,0,22.687490234375" />
+    <Link Source="@35" Target="@32" Category="CallStackDirectCall" Bounds="291.809991620525,507.764989013672,3.04056885624959E-06,22.6875207519532" />
+    <Link Source="@36" Target="@50" Category="CallStackDirectCall" Bounds="96.8100004560956,393.910008544922,3.04056639777173E-06,22.687490234375" />
+    <Link Source="@37" Target="@36" Category="CallStackDirectCall" Bounds="96.8100015462818,336.982487792969,1.86472388463699E-06,22.6875207519532" />
+    <Link Source="@38" Target="@5" Category="CallStackDirectCall" Bounds="413.810002239284,82.1675025177002,7.84589281010994E-06,36.2400014495852" />
+    <Link Source="@39" Target="@42" Category="CallStackDirectCall" Bounds="512.809997558594,1014.25751220703,0,22.687429199219" />
+    <Link Source="@40" Target="@39" Category="CallStackDirectCall" Bounds="512.810003353597,957.330021972656,6.08113282396516E-06,22.6874902343753" />
+    <Link Source="@41" Target="@45" Category="CallStackDirectCall" Bounds="512.810012817383,843.47498046875,0,22.687490234375" />
+    <Link Source="@42" Target="(Name=LocalCamDeviceCapturer::selectLocalCamDevice @11 @9 OverloadingParameters=[(Type=&quot;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;&quot; Name=device_name),(Type=&quot;const int&quot; Name=device_id)] @2)" Category="CallStackDirectCall" Bounds="512.809988094796,1071.18494140625,6.08115249178809E-06,22.6876123046877" />
+    <Link Source="@43" Target="@44" Category="CallStackDirectCall" Bounds="414.696724360489,280.054997558594,1.59568780318295,22.7096254582032" />
+    <Link Source="@44" Target="@29" Category="CallStackDirectCall" Bounds="418.918412664107,336.982487792969,1.99570477554704,22.7220356627947" />
+    <Link Source="@45" Target="@40" Category="CallStackDirectCall" Bounds="512.810012817383,900.402470703125,0,22.6875512695312" />
+    <Link Source="@46" Target="@37" Category="CallStackDirectCall" Bounds="125.833069379686,280.054997558594,45.6951253146266,27.0969653470959" />
+    <Link Source="@47" Target="@53" Category="CallStackDirectCall" Bounds="558.809997558594,223.127499694824,0,22.6874978637695" />
+    <Link Source="@5" Target="@56" Category="CallStackIndirectCall" Bounds="413.809997558594,152.647503967285,0,36.2399957275391" Label="外部代码" LabelBounds="417.809997558594,163.147501831055,48,15.2399999999998" />
+    <Link Source="@50" Target="@52" Category="CallStackDirectCall" Bounds="96.8099975585938,450.837498779297,0,22.687490234375" />
+    <Link Source="@51" Target="@15" Category="CallStackDirectCall" Bounds="291.809998621705,393.910008544922,9.12169923594774E-06,22.6874902343757" />
+    <Link Source="@52" Target="@55" Category="CallStackDirectCall" Bounds="96.8099975585938,507.764989013672,0,22.6875207519531" />
+    <Link Source="@53" Target="(Name=rtc::scoped_refptr&lt;webrtc::I420Buffer&gt;::get @11 Type=&quot;webrtc::I420Buffer *&quot; @2)" Category="CallStackDirectCall" Bounds="589.624284167364,280.054997558594,72.7664472162411,29.8015195200916" />
+    <Link Source="@53" Target="@20" Category="CallStackDirectCall" Bounds="558.189764003122,280.054997558594,0.398551422953005,22.6888784428588" />
+    <Link Source="@54" Target="@12" Category="CallStackDirectCall" Bounds="96.8099982846275,644.552495117188,1.8448560865636E-06,32.0674951171876" />
+    <Link Source="@55" Target="@54" Category="CallStackDirectCall" Bounds="96.8099975585938,564.692509765625,0,45.6199853515625" />
+    <Link Source="@56" Target="@43" Category="CallStackDirectCall" Bounds="413.809988094808,223.127499694824,6.08113407452038E-06,22.6874978637698" />
+    <Link Source="@7" Target="@31" Category="CallStackIndirectCall" Bounds="531.063402754154,82.1675025177002,3.60369535870097,36.2840648721577" Label="外部代码" LabelBounds="536.865298609748,92.4918695648506,48,15.2399999999998" />
+    <Link Source="ExternalCodeRootNode" Target="@3" Category="CallStackIndirectCall" Bounds="331.605014767916,25.2399998855591,56.4894686312095,27.7224515016503" />
+    <Link Source="ExternalCodeRootNode" Target="@38" Category="CallStackIndirectCall" Bounds="413.810000941246,25.2399998855591,6.0811347566414E-06,22.6875026321414" />
+    <Link Source="ExternalCodeRootNode" Target="@7" Category="CallStackIndirectCall" Bounds="439.525511718062,25.2399998855591,56.4894686312096,27.7224515016503" />
+  </Links>
+  <Categories>
+    <Category Id="CallStackDirectCall" Label="调用堆栈直接调用" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="调用堆栈直接调用" OutgoingActionLabel="调用堆栈直接调用" />
+    <Category Id="CallStackEntry" Label="调用堆栈入口" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="调用堆栈入口" />
+    <Category Id="CallStackIndirectCall" Label="调用堆栈间接调用" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="调用堆栈间接调用" OutgoingActionLabel="调用堆栈间接调用" />
+    <Category Id="CodeSchema_CallStackUnresolvedMethod" Label="未解析的方法" CanBeDataDriven="True" DefaultAction="Microsoft.AllOutBoundLinks" IsProviderRoot="False" NavigationActionLabel="未解析的方法" />
+    <Category Id="CodeSchema_SourceLocation" Label="源位置" Icon="File" />
+    <Category Id="ExternalCallStackEntry" Label="外部调用堆栈入口" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="外部调用堆栈入口" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DataVirtualized" Label="已虚拟化数据" Description="如果为 true，则图中可以包含表示虚拟化节点/链接(即，不在图中实际创建)的数据的节点和链接。" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="Group" Label="组" Description="将节点显示为组" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="图标" Description="图标" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="标签" Description="可批注对象的可显示标签" DataType="System.String" />
+    <Property Id="LabelBounds" DataType="System.Windows.Rect" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="起始行号" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="程序集" ValueType="Uri" />
+    <Name Id="IsUnresolved" Label="是无法解析的" ValueType="System.String" />
+    <Name Id="Name" Label="名称" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="参数" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="Type" Label="类型" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=kernel32.dll" />
+    <Alias n="2" Id="IsUnresolved=True" />
+    <Alias n="3" Id="(Name=&quot;[下面的框架可能不正确和/或缺失，没有为 kernel32.dll 加载符号]&quot; @1 @2)" />
+    <Alias n="4" Uri="Assembly=Qt5Cored.dll" />
+    <Alias n="5" Id="(Name=&quot;[下面的框架可能不正确和/或缺失，没有为 Qt5Cored.dll 加载符号]&quot; @4 @2)" />
+    <Alias n="6" Uri="Assembly=mfksproxy.dll" />
+    <Alias n="7" Id="(Name=&quot;[下面的框架可能不正确和/或缺失，没有为 mfksproxy.dll 加载符号]&quot; @6 @2)" />
+    <Alias n="8" Uri="Assembly=SmartClassRoom.exe" />
+    <Alias n="9" Id="Type=void" />
+    <Alias n="10" Id="(Name=StreamInfoHandler::routeMsg @8 @9 @2)" />
+    <Alias n="11" Uri="Assembly=AnyCore.dll" />
+    <Alias n="12" Id="(Name=abort @11 @9 @2)" />
+    <Alias n="13" Id="(Name=LocalCamDeviceCapturer::Run @11 @9 @2)" />
+    <Alias n="14" Id="(Name=&quot;rtc::MethodFunctor&lt;LocalCamDeviceCapturer,void (__thiscall LocalCamDeviceCapturer::*)(void),void&gt;::operator()&quot; @11 @9 @2)" />
+    <Alias n="15" Id="(Name=rtc::Thread::ReceiveSends @11 @9 @2)" />
+    <Alias n="16" Id="(Name=rtc::Thread::Run @11 @9 @2)" />
+    <Alias n="17" Id="(Name=webrtc::V_H264Encoder::Run @11 @9 @2)" />
+    <Alias n="18" Id="(Name=&quot;rtc::MethodFunctor&lt;LocalCamDeviceCapturer,void (__thiscall LocalCamDeviceCapturer::*)(void),void&gt;::CallMethod&lt;&gt;&quot; @11 @9 OverloadingParameters=[(Type=rtc::sequence&lt;&gt; Name=__formal)] @2)" />
+    <Alias n="19" Id="Type=int" />
+    <Alias n="20" Id="(Name=webrtc::videocapturemodule::VideoCaptureImpl::DeliverCapturedFrame @11 @19 OverloadingParameters=[(Type=&quot;webrtc::VideoFrame &amp;&quot; Name=captureFrame)] @2)" />
+    <Alias n="21" Id="(Name=ClassRoomLive::onPushStreamCmdComming @8 @9 OverloadingParameters=[(Type=&quot;const StreamCmdInfo &amp;&quot; Name=cmdInfo)] @2)" />
+    <Alias n="22" Id="(Name=PushStreamWidget::recvCtlStreamCmd @8 @9 OverloadingParameters=[(Type=StreamCmdInfo Name=cmdInfo)] @2)" />
+    <Alias n="23" Id="Type=bool" />
+    <Alias n="24" Id="(Name=rtc::Thread::ProcessMessages @11 @23 OverloadingParameters=[(@19 Name=cmsLoop)] @2)" />
+    <Alias n="25" Id="(Name=ClassRoomLive::initStreamSocket::__l2::&lt;lambda&gt; @8 @9 OverloadingParameters=[(Type=&quot;const StreamCmdInfo &amp;&quot; Name=info)] @2)" />
+    <Alias n="26" Id="(Name=PushStreamInfoHandler::notifyStreamImpler @8 @9 OverloadingParameters=[(Type=&quot;const nlohmann::basic_json&lt;std::map,std::vector,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::adl_serializer&gt; &amp;&quot; Name=jMsg)] @2)" />
+    <Alias n="27" Id="(Name=StreamInfoHandler::notify @8 @9 OverloadingParameters=[(Type=&quot;const nlohmann::basic_json&lt;std::map,std::vector,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::adl_serializer&gt; &amp;&quot; Name=jMsg)] @2)" />
+    <Alias n="28" Id="(Name=__acrt_report_runtime_error @11 @9 OverloadingParameters=[(Type=&quot;const wchar_t * const&quot; Name=message)] @2)" />
+    <Alias n="29" Id="(Name=XSPCStreamSocketManager::onMsgComing @8 @9 OverloadingParameters=[(Type=&quot;const QString &amp;&quot; Name=msg)] @2)" />
+    <Alias n="30" Id="(Name=&quot;rtc::FunctorMessageHandler&lt;void,rtc::MethodFunctor&lt;LocalCamDeviceCapturer,void (__thiscall LocalCamDeviceCapturer::*)(void),void&gt; &gt;::OnMessage&quot; @11 @9 OverloadingParameters=[(Type=&quot;rtc::Message *&quot; Name=msg)] @2)" />
+    <Alias n="31" Id="(Name=webrtc::videocapturemodule::CaptureInputPin::Receive @11 Type=HRESULT OverloadingParameters=[(Type=&quot;IMediaSample *&quot; Name=pIMediaSample)] @2)" />
+    <Alias n="32" Id="(Name=rtc::MessageQueue::Dispatch @11 @9 OverloadingParameters=[(Type=&quot;rtc::Message *&quot; Name=pmsg)] @2)" />
+    <Alias n="33" Id="(Name=rtc::Thread::PreRun @11 Type=&quot;unsigned long&quot; OverloadingParameters=[(Type=&quot;void *&quot; Name=pv)] @2)" />
+    <Alias n="34" Id="(Name=cricket::WebRtcVideoCapturer::OnFrame @11 @9 OverloadingParameters=[(Type=&quot;const webrtc::VideoFrame &amp;&quot; Name=sample)] @2)" />
+    <Alias n="35" Id="(Name=rtc::Thread::ReceiveSendsFromThread @11 @9 OverloadingParameters=[(Type=&quot;const rtc::Thread *&quot; Name=source)] @2)" />
+    <Alias n="36" Id="(Name=&quot;rtc::webrtc_checks_impl::FatalLogCall&lt;0&gt;::operator&amp;&lt;rtc::webrtc_checks_impl::Val&lt;1,int&gt;,rtc::webrtc_checks_impl::Val&lt;9,char const *&gt; &gt;&quot; @11 @9 OverloadingParameters=[(Type=&quot;const rtc::webrtc_checks_impl::LogStreamer&lt;rtc::webrtc_checks_impl::Val&lt;1,int&gt;,rtc::webrtc_checks_impl::Val&lt;9,char const *&gt; &gt; &amp;&quot; Name=streamer)] @2)" />
+    <Alias n="37" Id="(Name=&quot;webrtc::`anonymous namespace'::ConvertToVideoFrameType&quot; @11 Type=webrtc::FrameType OverloadingParameters=[(Type=EVideoFrameType Name=type)] @2)" />
+    <Alias n="38" Id="(Name=main @8 @19 OverloadingParameters=[(@19 Name=argc),(Type=&quot;char * *&quot; Name=argv)] @2)" />
+    <Alias n="39" Id="(Name=XSDeviceCapturerFactory::getDeviceCapturer @11 Type=&quot;DeviceCapturer *&quot; OverloadingParameters=[(Type=&quot;CapturerInfo *&quot; Name=capturerInfo),(Type=&quot;AnyRtmplayerEvent &amp; {XSLocalCamStream}&quot; Name=imp)] @2)" />
+    <Alias n="40" Id="(Name=XSLocalCamStream::selectCapturer @11 @9 OverloadingParameters=[(Type=&quot;CapturerInfo *&quot; Name=capturerInfo),(@19 Name=len)] @2)" />
+    <Alias n="41" Id="(Name=StreamBaseWidget::startStream @8 @9 OverloadingParameters=[(Type=&quot;const QString &amp;&quot; Name=url),(@23 Name=recored)] @2)" />
+    <Alias n="42" Id="(Name=LocalCamDeviceCapturer::LocalCamDeviceCapturer @11 @9 OverloadingParameters=[(@19 Name=usbId),(Type=&quot;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;&quot; Name=usbName)] @2)" />
+    <Alias n="43" Id="(Name=&quot;QtPrivate::FunctionPointer&lt;void (__thiscall NativeWebSocket::*)(QString const &amp;)&gt;::call&lt;QtPrivate::List&lt;QString const &amp;&gt;,void&gt;&quot; @8 @9 OverloadingParameters=[(Type=&quot;void(NativeWebSocket::*)(const QString &amp;)&quot; Name=f),(Type=&quot;NativeWebSocket * {XSPCStreamSocketManager}&quot; Name=o),(Type=&quot;void * *&quot; Name=arg)] @2)" />
+    <Alias n="44" Id="(Name=&quot;QtPrivate::FunctorCall&lt;QtPrivate::IndexesList&lt;0&gt;,QtPrivate::List&lt;QString const &amp;&gt;,void,void (__thiscall NativeWebSocket::*)(QString const &amp;)&gt;::call&quot; @8 @9 OverloadingParameters=[(Type=&quot;void(NativeWebSocket::*)(const QString &amp;)&quot; Name=f),(Type=&quot;NativeWebSocket * {XSPCStreamSocketManager}&quot; Name=o),(Type=&quot;void * *&quot; Name=arg)] @2)" />
+    <Alias n="45" Id="(Name=LocalCamStream::startStream @8 @9 OverloadingParameters=[(Type=&quot;const QString &amp;&quot; Name=addr),(Type=&quot;unsigned int&quot; Name=wid),(Type=&quot;void *&quot; Name=callback)] @2)" />
+    <Alias n="46" Id="(Name=webrtc::H264EncoderImpl::Encode @11 @19 OverloadingParameters=[(Type=&quot;const webrtc::VideoFrame &amp;&quot; Name=input_frame),(Type=&quot;const webrtc::CodecSpecificInfo *&quot; Name=codec_specific_info),(Type=&quot;const std::vector&lt;enum webrtc::FrameType,std::allocator&lt;enum webrtc::FrameType&gt; &gt; *&quot; Name=frame_types)] @2)" />
+    <Alias n="47" Id="(Name=webrtc::videocapturemodule::CaptureSinkFilter::ProcessCapturedFrame @11 @9 OverloadingParameters=[(Type=&quot;unsigned char *&quot; Name=pBuffer),(Type=&quot;unsigned int&quot; Name=length),(Type=&quot;const webrtc::VideoCaptureCapability &amp;&quot; Name=frameInfo)] @2)" />
+    <Alias n="48" Id="(Type=&quot;const char *&quot; Name=file)" />
+    <Alias n="49" Id="(Type=&quot;const char *&quot; Name=message)" />
+    <Alias n="50" Id="(Name=&quot;rtc::webrtc_checks_impl::LogStreamer&lt;rtc::webrtc_checks_impl::Val&lt;1,int&gt;,rtc::webrtc_checks_impl::Val&lt;9,char const *&gt; &gt;::Call&lt;&gt;&quot; @11 @9 OverloadingParameters=[@48,(Type=&quot;const int&quot; Name=line),@49] @2)" />
+    <Alias n="51" Id="(Name=rtc::MessageQueue::Get @11 @23 OverloadingParameters=[(Type=&quot;rtc::Message *&quot; Name=pmsg),(@19 Name=cmsWait),(@23 Name=process_io)] @2)" />
+    <Alias n="52" Id="(Name=&quot;rtc::webrtc_checks_impl::LogStreamer&lt;rtc::webrtc_checks_impl::Val&lt;9,char const *&gt; &gt;::Call&lt;rtc::webrtc_checks_impl::Val&lt;1,int&gt; &gt;&quot; @11 @9 OverloadingParameters=[@48,(Type=&quot;const int&quot; Name=line),@49,(Type=&quot;const rtc::webrtc_checks_impl::Val&lt;1,int&gt; &amp;&quot; Name=&lt;args_0&gt;)] @2)" />
+    <Alias n="53" Id="(Name=webrtc::videocapturemodule::VideoCaptureImpl::IncomingFrame @11 @19 OverloadingParameters=[(Type=&quot;unsigned char *&quot; Name=videoFrame),(Type=&quot;unsigned int&quot; Name=videoFrameLength),(Type=&quot;const webrtc::VideoCaptureCapability &amp;&quot; Name=frameInfo),(Type=__int64 Name=captureTime)] @2)" />
+    <Alias n="54" Id="(Name=rtc::webrtc_checks_impl::FatalLog @11 @9 OverloadingParameters=[@48,(@19 Name=line),@49,(Type=&quot;const rtc::webrtc_checks_impl::CheckArgType *&quot; Name=fmt)] @2)" />
+    <Alias n="55" Id="(Name=&quot;rtc::webrtc_checks_impl::LogStreamer&lt;&gt;::Call&lt;rtc::webrtc_checks_impl::Val&lt;9,char const *&gt;,rtc::webrtc_checks_impl::Val&lt;1,int&gt; &gt;&quot; @11 @9 OverloadingParameters=[@48,(Type=&quot;const int&quot; Name=line),@49,(Type=&quot;const rtc::webrtc_checks_impl::Val&lt;9,char const *&gt; &amp;&quot; Name=&lt;args_0&gt;),(Type=&quot;const rtc::webrtc_checks_impl::Val&lt;1,int&gt; &amp;&quot; Name=&lt;args_1&gt;)] @2)" />
+    <Alias n="56" Id="(Name=&quot;QtPrivate::QSlotObject&lt;void (__thiscall NativeWebSocket::*)(QString const &amp;),QtPrivate::List&lt;QString const &amp;&gt;,void&gt;::impl&quot; @8 @9 OverloadingParameters=[(@19 Name=which),(Type=&quot;QtPrivate::QSlotObjectBase *&quot; Name=this_),(Type=&quot;QObject * {XSPCStreamSocketManager}&quot; Name=r),(Type=&quot;void * *&quot; Name=a),(Type=&quot;bool *&quot; Name=ret)] @2)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Link" GroupLabel="Current Call Stack Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CurrentCallStackCall')" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+      <Setter Property="Weight" Value="1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Indirect Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackIndirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+      <Setter Property="StrokeDashArray" Value="4 1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Direct Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackDirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="当前调用堆栈(无源)" ValueLabel="True">
+      <Condition Expression="HasCategory('CurrentCallStackEntry') And !HasCategory('CodeSchema_SourceLocation')" />
+      <Setter Property="Background" Value="Transparent" />
+      <Setter Property="Foreground" Value="#FFA5A5A5" />
+      <Setter Property="Stroke" Value="#FF0072C6" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="External And Current" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('ExternalCallStackEntry') And HasCategory('CurrentCallStackEntry')" />
+      <Setter Property="Background" Value="#FFFFF8F0" />
+      <Setter Property="Stroke" Value="#FFCE5100" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="当前调用堆栈(源)" ValueLabel="True">
+      <Condition Expression="HasCategory('CurrentCallStackEntry') And !HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFFFE3C6" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="外部调用堆栈" ValueLabel="True">
+      <Condition Expression="HasCategory('ExternalCallStackEntry')" />
+      <Setter Property="Background" Value="#FFF7F7F7" />
+      <Setter Property="StrokeDashArray" Value="1 3" />
+      <Setter Property="Foreground" Value="#FF717171" />
+      <Setter Property="Stroke" Value="#FFA5A5A5" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="结果" ValueLabel="True">
+      <Condition Expression="HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFBCFFBE" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="测试项目" ValueLabel="测试项目">
+      <Condition Expression="HasCategory('CodeMap_TestProject')" />
+      <Setter Property="Icon" Value="CodeMap_TestProject" />
+      <Setter Property="Background" Value="#FF307A69" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Web 项目" ValueLabel="Web 项目">
+      <Condition Expression="HasCategory('CodeMap_WebProject')" />
+      <Setter Property="Icon" Value="CodeMap_WebProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Windows 应用商店项目" ValueLabel="Windows 应用商店项目">
+      <Condition Expression="HasCategory('CodeMap_WindowsStoreProject')" />
+      <Setter Property="Icon" Value="CodeMap_WindowsStoreProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="电话项目" ValueLabel="电话项目">
+      <Condition Expression="HasCategory('CodeMap_PhoneProject')" />
+      <Setter Property="Icon" Value="CodeMap_PhoneProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="可移植库" ValueLabel="可移植库">
+      <Condition Expression="HasCategory('CodeMap_PortableLibraryProject')" />
+      <Setter Property="Icon" Value="CodeMap_PortableLibraryProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="WPF 项目" ValueLabel="WPF 项目">
+      <Condition Expression="HasCategory('CodeMap_WpfProject')" />
+      <Setter Property="Icon" Value="CodeMap_WpfProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="VSIX 项目" ValueLabel="VSIX 项目">
+      <Condition Expression="HasCategory('CodeMap_VsixProject')" />
+      <Setter Property="Icon" Value="CodeMap_VsixProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="建模项目" ValueLabel="建模项目">
+      <Condition Expression="HasCategory('CodeMap_ModelingProject')" />
+      <Setter Property="Icon" Value="CodeMap_ModelingProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="程序集" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#FF094167" />
+      <Setter Property="Stroke" Value="#FF094167" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="命名空间" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#FF0E619A" />
+      <Setter Property="Stroke" Value="#FF0E619A" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="接口" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="结构" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="枚举" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="委托" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="类" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#FF0E70C0" />
+      <Setter Property="Stroke" Value="#FF0E70C0" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="属性" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="方法" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Method') Or HasCategory('CodeSchema_CallStackUnresolvedMethod')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="事件" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="字段" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Out 参数" ValueLabel="具有类别">
+      <Condition Expression="CodeSchemaProperty_IsOut = 'True'" />
+      <Setter Property="Icon" Value="CodeSchema_OutParameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="参数" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Parameter')" />
+      <Setter Property="Icon" Value="CodeSchema_Parameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="局部变量" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_LocalExpression')" />
+      <Setter Property="Icon" Value="CodeSchema_LocalExpression" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="外部" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FF424242" />
+      <Setter Property="Stroke" Value="#FF424242" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="继承自" ValueLabel="True">
+      <Condition Expression="HasCategory('InheritsFrom')" />
+      <Setter Property="Stroke" Value="#FF00A600" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="实现" ValueLabel="True">
+      <Condition Expression="HasCategory('Implements')" />
+      <Setter Property="Stroke" Value="#8000A600" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="调用" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_Calls')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="函数指针" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FunctionPointer')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="字段读取" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FieldRead')" />
+      <Setter Property="Stroke" Value="#FF00AEEF" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="字段写入" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FieldWrite')" />
+      <Setter Property="Stroke" Value="#FF00AEEF" />
+      <Setter Property="DrawArrow" Value="true" />
+      <Setter Property="IsHidden" Value="false" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('InheritsFrom') And Target.HasCategory('CodeSchema_Class')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('Implements') And Target.HasCategory('CodeSchema_Interface')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Comment Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Source.HasCategory('Comment')" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Cursor Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCursorLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Disabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="DisabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="EnabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Instruction Pointer Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsInstructionPointerLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Callstack Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCurrentCallstackFrame" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="返回" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeSchema_ReturnTypeLink')" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="引用" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('References')" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="使用特性" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeSchema_AttributeUse')" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="解决方案文件夹" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeMap_SolutionFolder')" />
+      <Setter Property="Background" Value="#FFDEBA83" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="项目引用" ValueLabel="项目引用">
+      <Condition Expression="HasCategory('CodeMap_ProjectReference')" />
+      <Setter Property="Stroke" Value="#9A9A9A" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="外部引用" ValueLabel="外部引用">
+      <Condition Expression="HasCategory('CodeMap_ExternalReference')" />
+      <Setter Property="Stroke" Value="#9A9A9A" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="注释" ValueLabel="包含注释">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+</DirectedGraph>
