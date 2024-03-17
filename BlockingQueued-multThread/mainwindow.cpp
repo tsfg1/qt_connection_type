@@ -8,6 +8,8 @@ MainWindow::MainWindow(QWidget1* parent) :
 {
 	ui->setupUi(this);
 
+	local;
+
 	qDebug() << u8"Ö÷ĎßłĚID" << QThread::currentThreadId();
 
 	connect(&m_thread1, SIGNAL(sigThread1()), this, SLOT(slot()), Qt::BlockingQueuedConnection);
