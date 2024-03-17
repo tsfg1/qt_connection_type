@@ -2,7 +2,7 @@
 #include "ui_mainwindow.h"
 #include <QDebug>
 
-MainWindow::MainWindow(www* parent) :
+MainWindow::MainWindow(www* parent) :  //llllllllllllllllllllllllllll
 	www(parent),
 	ui(new Ui::MainWindow)
 {
