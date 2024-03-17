@@ -8,7 +8,7 @@ MainWindow::MainWindow(QWidget1* parent) :
 {
 	ui->setupUi(this);
 
-	local;
+	//llrr	//wgj解决冲突
 
 	qDebug() << u8"Ö÷ĎßłĚID" << QThread::currentThreadId();
 
