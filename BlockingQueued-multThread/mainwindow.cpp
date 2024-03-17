@@ -2,13 +2,13 @@
 #include "ui_mainwindow.h"
 #include <QDebug>
 
-MainWindow::MainWindow(QWidget* parent) :
-	QMainWindow(parent),
+MainWindow::MainWindow(QWidget1* parent) :
+	QMainWindow1(parent),
 	ui(new Ui::MainWindow)
 {
 	ui->setupUi(this);
 
-	qDebug() << u8"主线程ID" << QThread::currentThreadId();
+	qDebug() << u8"脰梅膸脽艂臍ID" << QThread::currentThreadId();
 
 	connect(&m_thread1, SIGNAL(sigThread1()), this, SLOT(slot()), Qt::BlockingQueuedConnection);
 
@@ -22,6 +22,6 @@ MainWindow::~MainWindow()
 
 void MainWindow::slot()
 {
-	qDebug() << u8"执行槽函数---线程ID" << QThread::currentThreadId();
+	qDebug() << u8"脰麓膼膼藳虐艧呕臉媒---膸脽艂臍ID" << QThread::currentThreadId();
 }
 
