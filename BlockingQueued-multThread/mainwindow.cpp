@@ -2,8 +2,8 @@
 #include "ui_mainwindow.h"
 #include <QDebug>
 
-MainWindow::MainWindow(www* parent) :  //llllllllllllllllllllllllllll
-	www(parent),
+MainWindow::MainWindow(QWidget* parent) :  //lm
+	QMainWindow(parent),
 	ui(new Ui::MainWindow)
 {
 	ui->setupUi(this);
