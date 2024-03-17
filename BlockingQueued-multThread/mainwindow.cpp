@@ -8,7 +8,7 @@ MainWindow::MainWindow(QWidget1* parent) :
 {
 	ui->setupUi(this);
 
-	remote
+	remote12
 
 	qDebug() << u8"Ö÷ĎßłĚID" << QThread::currentThreadId();
 
